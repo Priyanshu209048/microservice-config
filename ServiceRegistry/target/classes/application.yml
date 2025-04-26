@@ -1,9 +1,0 @@
-server:
-  port: 8761
-
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    register-with-eureka: false   #Due to this, the Service Registry does not register as a client in the eureka server.
-    fetch-registry: false
